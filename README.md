@@ -1,3 +1,5 @@
+# 🚀 `Ping Pong Cheatsheet`
+
 ## `Initiating the Contract`
 
 Import threse external contracts and inherit from "ICrossTalkApplication" contract for smart contract compatibility.
