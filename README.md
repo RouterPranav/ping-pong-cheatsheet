@@ -81,7 +81,7 @@ Create pingDestination function with specified input parameters for initiating a
 ```
 ## `Handlle crosschain request`
 
-create handleRequestFromSource function to handle a cross-chain request that arrives at the contract on the destination blockchain, by providing the required input parameters.
+Create handleRequestFromSource function to handle a cross-chain request that arrives at the contract on the destination blockchain, by providing the required input parameters.
 
  ```sh
  function handleRequestFromSource(
@@ -105,7 +105,7 @@ create handleRequestFromSource function to handle a cross-chain request that arr
 ```
 ## `Pong`
 
-createhandleCrossTalkAck function to handle acknowledgements sent by the destination chain to the source chain after a successful cross-chain communication. 
+Create handleCrossTalkAck function to handle acknowledgements sent by the destination chain to the source chain after a successful cross-chain communication. 
 
 ```sh
 function handleCrossTalkAck(
