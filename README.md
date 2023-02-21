@@ -1,6 +1,6 @@
 # 🚀 `Ping Pong Cheatsheet`
 
-## `Initiating the Contract`
+## `Contract`
 
 Import threse external contracts and inherit from "ICrossTalkApplication" contract for smart contract compatibility.
 
@@ -14,7 +14,7 @@ contract PingPong is ICrossTalkApplication {
 }
 ```
 
-## `Creating State Variables and the Constructor`
+## `State Variables and the Constructor`
 
 Define state variables, events, custom errors for the contract, including a public variable to store the gateway contract address and a constructor to initialize the contract.
 
@@ -41,7 +41,7 @@ constructor(
 ```
 
 
-## `Sending a message to the destination chain`
+## `Ping`
 
 Create pingDestination function with specified input parameters for initiating a cross-chain transaction with a destination contract on a different blockchain network.
 
@@ -79,7 +79,7 @@ Create pingDestination function with specified input parameters for initiating a
   );
 }
 ```
-## `Handling a crosschain request`
+## `Handlle crosschain request`
 
 create handleRequestFromSource function to handle a cross-chain request that arrives at the contract on the destination blockchain, by providing the required input parameters.
 
@@ -103,7 +103,7 @@ create handleRequestFromSource function to handle a cross-chain request that arr
   return abi.encode(srcChainId, srcChainType);
 }
 ```
-## `Handling the acknowledgement received from destination chain`
+## `Pong`
 
 createhandleCrossTalkAck function to handle acknowledgements sent by the destination chain to the source chain after a successful cross-chain communication. 
 
